@@ -6,15 +6,15 @@
     public sealed class StatisticFactory : IStatisticFactory
     {
         /// <inheritdoc/>
-        public IStatistic GetStatistic(string statisticName, string serializedValueDimensions, DateTime sampleDateTime)
+        public IStatistic GetStatistic(string statisticName, string serializedValueDimensions, DateTime sampleDateTimeUtc)
         {
             return statisticName switch
             {
-                nameof(TwitterFeedAvgTweetLength) => new TwitterFeedAvgTweetLength(serializedValueDimensions),
-                nameof(TwitterFeedTotalTweets) => new TwitterFeedTotalTweets(serializedValueDimensions),
-                nameof(TwitterFeedAnnotationCount) => new TwitterFeedAnnotationCount(serializedValueDimensions),
-                nameof(TwitterFeedHashtagCount) => new TwitterFeedHashtagCount(serializedValueDimensions),
-                _ => new StatisticBase<object>(statisticName, serializedValueDimensions),
+                nameof(TwitterFeedAvgTweetLength) => new TwitterFeedAvgTweetLength(serializedValueDimensions, sampleDateTimeUtc),
+                nameof(TwitterFeedTotalTweets) => new TwitterFeedTotalTweets(serializedValueDimensions, sampleDateTimeUtc),
+                nameof(TwitterFeedAnnotationCount) => new TwitterFeedAnnotationCount(serializedValueDimensions, sampleDateTimeUtc),
+                nameof(TwitterFeedHashtagCount) => new TwitterFeedHashtagCount(serializedValueDimensions, sampleDateTimeUtc),
+                _ => new StatisticBase<object>(statisticName, serializedValueDimensions, sampleDateTimeUtc),
             };
         }
 

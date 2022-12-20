@@ -11,7 +11,7 @@ namespace Feed.Runner
         private readonly ILogger<Worker> _logger;
 
         /// <summary>
-        /// Insansiates a new instance of <see cref="Worker"/>.
+        /// Instantiates a new instance of <see cref="Worker"/>.
         /// </summary>
         /// <param name="feedRunner">Feed runner.</param>
         /// <param name="loggerFactory">Logger.</param>

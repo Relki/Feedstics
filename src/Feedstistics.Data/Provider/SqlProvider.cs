@@ -33,8 +33,9 @@
         public SqlProvider(
             ILogger<SqlProvider> logger,
             IStatisticFactory statisticFactory,
+            FeedstisticsDataSettings settings,
             FeedstisticsModelContext context)
-            : base()
+            : base(settings)
         {
             this.Logger = logger;
             this.StatisticFactory = statisticFactory;

@@ -8,7 +8,7 @@
     public class TwitterFeedHashtagCount : StatisticBase<long>
     {
         /// <summary>
-        /// Insansiates an instance of <see cref="TwitterFeedAvgTweetLength"/>.
+        /// Instantiates an instance of <see cref="TwitterFeedAvgTweetLength"/>.
         /// </summary>
         public TwitterFeedHashtagCount()
             : base()
@@ -16,7 +16,7 @@
         }
 
         /// <summary>
-        /// Insansiates an instance of <see cref="TwitterFeedAvgTweetLength"/> with an Statistic entity.
+        /// Instantiates an instance of <see cref="TwitterFeedAvgTweetLength"/> with an Statistic entity.
         /// </summary>
         public TwitterFeedHashtagCount(EF.Models.Entity.Statistics statistic)
             : base(statistic)
@@ -24,7 +24,7 @@
         }
 
         /// <summary>
-        /// Insansiates an instance of <see cref="TwitterFeedAvgTweetLength"/> with a serialized dimension.
+        /// Instantiates an instance of <see cref="TwitterFeedAvgTweetLength"/> with a serialized dimension.
         /// </summary>
         public TwitterFeedHashtagCount(string serializedValueDimensions, DateTime sampleDateTimeUtc)
             : base(nameof(TwitterFeedHashtagCount), serializedValueDimensions, sampleDateTimeUtc)
@@ -32,7 +32,7 @@
         }
 
         /// <summary>
-        /// Insansiates an instance of <see cref="TwitterFeedAvgTweetLength"/> with an existing statistic base fields.
+        /// Instantiates an instance of <see cref="TwitterFeedAvgTweetLength"/> with an existing statistic base fields.
         /// </summary>
         public TwitterFeedHashtagCount(IStatistic statistic)
             : base()
