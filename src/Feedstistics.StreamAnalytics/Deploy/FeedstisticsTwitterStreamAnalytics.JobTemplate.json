@@ -1,0 +1,285 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "ASAApiVersion": {
+      "type": "string"
+    },
+    "StreamAnalyticsJobName": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 63,
+      "metadata": {
+        "description": "Stream Analytics job name can contain alphanumeric characters, hyphens, and underscores only and must be 3-63 characters long."
+      }
+    },
+    "Location": {
+      "type": "string"
+    },
+    "OutputStartMode": {
+      "type": "string",
+      "allowedValues": [
+        "JobStartTime",
+        "CustomTime",
+        "LastOutputEventTime"
+      ]
+    },
+    "OutputStartTime": {
+      "type": "string"
+    },
+    "DataLocale": {
+      "type": "string"
+    },
+    "OutputErrorPolicy": {
+      "type": "string",
+      "allowedValues": [
+        "Drop",
+        "Stop"
+      ]
+    },
+    "EventsLateArrivalMaxDelayInSeconds": {
+      "type": "int"
+    },
+    "EventsOutOfOrderMaxDelayInSeconds": {
+      "type": "int"
+    },
+    "EventsOutOfOrderPolicy": {
+      "type": "string",
+      "allowedValues": [
+        "Adjust",
+        "Drop"
+      ]
+    },
+    "StreamingUnits": {
+      "type": "int",
+      "minValue": 1,
+      "maxValue": 396,
+      "metadata": {
+        "description": "Number of Streaming Units"
+      },
+      "allowedValues": [
+        1,
+        3,
+        6,
+        12,
+        18,
+        24,
+        30,
+        36,
+        42,
+        48,
+        54,
+        60,
+        66,
+        72,
+        78,
+        84,
+        90,
+        96,
+        102,
+        108,
+        114,
+        120,
+        126,
+        132,
+        138,
+        144,
+        150,
+        156,
+        162,
+        168,
+        174,
+        180,
+        186,
+        192,
+        198,
+        204,
+        210,
+        216,
+        222,
+        228,
+        234,
+        240,
+        246,
+        252,
+        258,
+        264,
+        270,
+        276,
+        282,
+        288,
+        294,
+        300,
+        306,
+        312,
+        318,
+        324,
+        330,
+        336,
+        342,
+        348,
+        354,
+        360,
+        366,
+        372,
+        378,
+        384,
+        390,
+        396
+      ]
+    },
+    "CompatibilityLevel": {
+      "type": "string",
+      "allowedValues": [
+        "1.0",
+        "1.1",
+        "1.2"
+      ]
+    },
+    "TagValues": {
+      "type": "object"
+    },
+    "ContentStoragePolicy": {
+      "type": "string",
+      "allowedValues": [
+        "SystemAccount",
+        "JobStorageAccount"
+      ]
+    },
+    "JobStorageAccountName": {
+      "type": "string"
+    },
+    "JobStorageAccountKey": {
+      "type": "securestring"
+    },
+    "JobStorageAuthMode": {
+      "type": "string",
+      "allowedValues": [
+        "ConnectionString",
+        "Msi"
+      ]
+    },
+    "Input_SocialFeed_serviceBusNamespace": {
+      "type": "string"
+    },
+    "Input_SocialFeed_eventHubName": {
+      "type": "string"
+    },
+    "Input_SocialFeed_sharedAccessPolicyName": {
+      "type": "string"
+    },
+    "Input_SocialFeed_sharedAccessPolicyKey": {
+      "type": "securestring"
+    },
+    "Input_SocialFeed_authenticationMode": {
+      "type": "string"
+    },
+    "Output_Statistics_server": {
+      "type": "string"
+    },
+    "Output_Statistics_database": {
+      "type": "string"
+    },
+    "Output_Statistics_user": {
+      "type": "string"
+    },
+    "Output_Statistics_table": {
+      "type": "string"
+    },
+    "Output_Statistics_password": {
+      "type": "securestring"
+    },
+    "Output_Statistics_maxWriterCount": {
+      "type": "int"
+    },
+    "Output_Statistics_maxBatchCount": {
+      "type": "int"
+    },
+    "Output_Statistics_authenticationMode": {
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.StreamAnalytics/StreamingJobs",
+      "apiVersion": "[parameters('ASAApiVersion')]",
+      "name": "[parameters('StreamAnalyticsJobName')]",
+      "location": "[parameters('Location')]",
+      "tags": "[parameters('TagValues')]",
+      "properties": {
+        "outputStartMode": "[parameters('OutputStartMode')]",
+        "outputStartTime": "[if(equals(parameters('OutputStartMode'),'CustomTime'), parameters('OutputStartTime'), json('null'))]",
+        "sku": {
+          "name": "standard"
+        },
+        "jobType": "Cloud",
+        "eventsOutOfOrderPolicy": "[parameters('EventsOutOfOrderPolicy')]",
+        "outputErrorPolicy": "[parameters('OutputErrorPolicy')]",
+        "eventsOutOfOrderMaxDelayInSeconds": "[parameters('EventsOutOfOrderMaxDelayInSeconds')]",
+        "eventsLateArrivalMaxDelayInSeconds": "[parameters('EventsLateArrivalMaxDelayInSeconds')]",
+        "dataLocale": "[parameters('DataLocale')]",
+        "compatibilityLevel": "[parameters('CompatibilityLevel')]",
+        "jobStorageAccount": {
+          "accountName": "[parameters('JobStorageAccountName')]",
+          "accountKey": "[parameters('JobStorageAccountKey')]",
+          "authenticationMode": "[parameters('JobStorageAuthMode')]"
+        },
+        "contentStoragePolicy": "[parameters('ContentStoragePolicy')]",
+        "transformation": {
+          "name": "Transformation",
+          "properties": {
+            "streamingUnits": "[parameters('StreamingUnits')]",
+            "query": "WITH InputStream\r\nAS\r\n(\r\n    SELECT\r\n        FeedProviderName = stream.MessageType,\r\n        SampleDateTime = CAST(stream.data.created_At AS datetime),\r\n        stream.data,\r\n        Hashtags.ArrayValue\r\n    FROM\r\n        (\r\n            SELECT\r\n                SocialFeed.*,\r\n                SocialFeed.Data.entities.*\r\n            FROM SocialFeed\r\n        ) AS stream\r\n        CROSS APPLY GetArrayElements(hashtags) AS Hashtags\r\n    WHERE\r\n        stream.MessageType = 'Tweet'\r\n),\r\nInputStreamWithAnnotations\r\nAS\r\n(\r\n    SELECT\r\n        FeedProviderName = stream.MessageType,\r\n        SampleDateTime = CAST(stream.data.created_At AS datetime),\r\n        stream.data,\r\n        Annotations.ArrayValue\r\n    FROM\r\n        (\r\n            SELECT\r\n                SocialFeed.*,\r\n                SocialFeed.Data.entities.*\r\n            FROM SocialFeed\r\n        ) AS stream\r\n        CROSS APPLY GetArrayElements(annotations) AS Annotations\r\n    WHERE\r\n        stream.MessageType = 'Tweet'\r\n)\r\n\r\nSELECT\r\n    [InputStream].FeedProviderName,\r\n    StatisticName = 'TwitterFeedTotalTweets',\r\n    SampleDateTime = MAX(SampleDateTime),\r\n    Value = '{\"Value\": ' + CAST(COUNT(*) AS nvarchar(max)) + '}'\r\nINTO\r\n    [Statistics]\r\nFROM\r\n    [InputStream]\r\nWHERE\r\n    FeedProviderName = 'Tweet'\r\nGROUP BY [InputStream].FeedProviderName, TumblingWindow(second, 60)\r\n\r\nUNION\r\n\r\n-- Average Tweet length\r\n\r\nSELECT\r\n    [InputStream].FeedProviderName,\r\n    StatisticName = 'TwitterFeedAvgTweetLength',\r\n    SampleDateTime = MAX(SampleDateTime),\r\n    Value = '{\"Value\": ' + CAST(AVG(LEN(InputStream.data.text)) AS nvarchar(max)) + '}'\r\nFROM\r\n    [InputStream]\r\nWHERE\r\n    FeedProviderName = 'Tweet'\r\nGROUP BY [InputStream].FeedProviderName, TumblingWindow(second, 60)\r\n\r\nUNION\r\n\r\n-- Count of Tweet Hashtags\r\n\r\nSELECT\r\n    FeedProviderName = InputStream.FeedProviderName,\r\n    StatisticName = 'TwitterFeedHashtagCount',\r\n    SampleDateTime = MAX(InputStream.SampleDateTime),\r\n    Value = '{\"Value\": ' + CAST(COUNT(*) AS nvarchar(max)) + ', \"Hashtag\" : \"' + InputStream.ArrayValue.tag + '\" }'\r\nFROM\r\n    InputStream\r\nWHERE FeedProviderName = 'Tweet'\r\nGROUP BY InputStream.FeedProviderName, InputStream.ArrayValue.tag, TumblingWindow(minute, 5)\r\n\r\nUNION\r\n\r\n-- Top 10 Count of Tweet Hashtags Desc\r\n\r\n--SELECT\r\n    --FeedProviderName,\r\n    --StatisticName,\r\n    --SampleDateTime,\r\n    --Value\r\n--FROM\r\n--(\r\n    --SELECT\r\n        --FeedProviderName,\r\n        --StatisticName,\r\n        --SampleDateTime,\r\n        --Value = '{\"Value\": ' + CAST(HashtagGrouping.Value AS nvarchar(max)) + ', \"Hashtag\" : \"' + HashtagGrouping.Hashtag + '\" }',\r\n        --CollectTop(10) OVER (ORDER BY HashtagGrouping.Value DESC LIMIT DURATION (minute, 5)) AS TopHashtags\r\n    --FROM\r\n    --(\r\n        --SELECT\r\n            --FeedProviderName = InputStream.FeedProviderName,\r\n            --StatisticName = 'TwitterFeedTop10HashtagCountOver5Minutes',\r\n            --SampleDateTime = MAX(InputStream.SampleDateTime),\r\n            --Value = COUNT(*),\r\n            --Hashtag = InputStream.ArrayValue.tag\r\n        --FROM\r\n            --InputStream\r\n        --WHERE FeedProviderName = 'Tweet'\r\n        --GROUP BY InputStream.FeedProviderName, InputStream.ArrayValue.tag, TumblingWindow(minute, 5)\r\n    --) AS HashtagGrouping\r\n--) AS Top10\r\n\r\n--UNION\r\n\r\n-- Count of Tweet Annotations\r\n\r\nSELECT\r\n    FeedProviderName = InputStreamWithAnnotations.FeedProviderName,\r\n    StatisticName = 'TwitterFeedAnnotationCount',\r\n    SampleDateTime = MAX(InputStreamWithAnnotations.SampleDateTime),\r\n        Value = '{\"Value\": ' + CAST(COUNT(*) AS nvarchar(max)) + ', \"AnnotationType\" : \"' + InputStreamWithAnnotations.ArrayValue.type + '\" '  + ', \"AnnotationText\" : \"' + InputStreamWithAnnotations.ArrayValue.normalized_text + '\" }'\r\nFROM\r\n    InputStreamWithAnnotations\r\nWHERE FeedProviderName = 'Tweet'\r\nGROUP BY InputStreamWithAnnotations.FeedProviderName, InputStreamWithAnnotations.ArrayValue.type, InputStreamWithAnnotations.ArrayValue.normalized_text, TumblingWindow(minute, 5)\r\n"
+          }
+        },
+        "inputs": [
+          {
+            "name": "SocialFeed",
+            "properties": {
+              "type": "Stream",
+              "datasource": {
+                "type": "Microsoft.ServiceBus/EventHub",
+                "properties": {
+                  "serviceBusNamespace": "[parameters('Input_SocialFeed_serviceBusNamespace')]",
+                  "eventHubName": "[parameters('Input_SocialFeed_eventHubName')]",
+                  "sharedAccessPolicyName": "[parameters('Input_SocialFeed_sharedAccessPolicyName')]",
+                  "sharedAccessPolicyKey": "[parameters('Input_SocialFeed_sharedAccessPolicyKey')]",
+                  "authenticationMode": "[parameters('Input_SocialFeed_authenticationMode')]"
+                }
+              },
+              "compression": {
+                "type": "None"
+              },
+              "serialization": {
+                "type": "Json",
+                "properties": {
+                  "encoding": "UTF8"
+                }
+              }
+            }
+          }
+        ],
+        "outputs": [
+          {
+            "name": "Statistics",
+            "properties": {
+              "datasource": {
+                "type": "Microsoft.Sql/Server/Database",
+                "properties": {
+                  "server": "[parameters('Output_Statistics_server')]",
+                  "database": "[parameters('Output_Statistics_database')]",
+                  "user": "[parameters('Output_Statistics_user')]",
+                  "table": "[parameters('Output_Statistics_table')]",
+                  "password": "[parameters('Output_Statistics_password')]",
+                  "maxWriterCount": "[parameters('Output_Statistics_maxWriterCount')]",
+                  "maxBatchCount": "[parameters('Output_Statistics_maxBatchCount')]",
+                  "authenticationMode": "[parameters('Output_Statistics_authenticationMode')]"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

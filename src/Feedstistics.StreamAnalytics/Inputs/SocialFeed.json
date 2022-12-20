@@ -1,0 +1,21 @@
+{
+    "Name": "SocialFeed",
+    "Type": "Data Stream",
+    "DataSourceType": "Event Hub",
+    "EventHubProperties": {
+        "ServiceBusNamespace": "yov-i-cus-ingestion-eh",
+        "EventHubName": "feedstistics",
+        "SharedAccessPolicyName": "RootManageSharedAccessKey",
+        "SharedAccessPolicyKey": "********",
+        "ConsumerGroupName": null,
+        "AuthenticationMode": "ConnectionString"
+    },
+    "DataSourceCredentialDomain": "727cc075-3e9e-4fdb-be1f-83ebe2dad9c1.StreamAnalystics",
+    "Serialization": {
+        "Type": "Json",
+        "Encoding": "UTF8"
+    },
+    "PartitionKey": null,
+    "CompressionType": "None",
+    "ScriptType": "Input"
+}

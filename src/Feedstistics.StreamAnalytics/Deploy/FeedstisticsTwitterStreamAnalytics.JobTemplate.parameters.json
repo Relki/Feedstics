@@ -1,0 +1,98 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "ASAApiVersion": {
+      "value": "2017-04-01-preview"
+    },
+    "StreamAnalyticsJobName": {
+      "value": "FeedstisticsTwitterStreamAnalytics"
+    },
+    "Location": {
+      "value": "Central US"
+    },
+    "OutputStartMode": {
+      "value": "JobStartTime"
+    },
+    "OutputStartTime": {
+      "value": "2019-01-01T00:00:00Z"
+    },
+    "DataLocale": {
+      "value": "en-US"
+    },
+    "OutputErrorPolicy": {
+      "value": "Drop"
+    },
+    "EventsLateArrivalMaxDelayInSeconds": {
+      "value": 5
+    },
+    "EventsOutOfOrderMaxDelayInSeconds": {
+      "value": 0
+    },
+    "EventsOutOfOrderPolicy": {
+      "value": "Adjust"
+    },
+    "StreamingUnits": {
+      "value": 3
+    },
+    "CompatibilityLevel": {
+      "value": "1.2"
+    },
+    "TagValues": {
+      "value": {
+        "hidden-link:/Microsoft.StreamAnalytics/streamingjobs/settings": "{\"createdFrom\":\"CICD\"}"
+      }
+    },
+    "ContentStoragePolicy": {
+      "value": "SystemAccount"
+    },
+    "JobStorageAccountName": {
+      "value": "http://127.0.0.1:10000"
+    },
+    "JobStorageAccountKey": {
+      "value": null
+    },
+    "JobStorageAuthMode": {
+      "value": "ConnectionString"
+    },
+    "Input_SocialFeed_serviceBusNamespace": {
+      "value": "yov-i-cus-ingestion-eh"
+    },
+    "Input_SocialFeed_eventHubName": {
+      "value": "feedstistics"
+    },
+    "Input_SocialFeed_sharedAccessPolicyName": {
+      "value": "RootManageSharedAccessKey"
+    },
+    "Input_SocialFeed_sharedAccessPolicyKey": {
+      "value": null
+    },
+    "Input_SocialFeed_authenticationMode": {
+      "value": "ConnectionString"
+    },
+    "Output_Statistics_server": {
+      "value": "yov-i-cus-services-sql.database.windows.net"
+    },
+    "Output_Statistics_database": {
+      "value": "yov-i-cus-account-sdb"
+    },
+    "Output_Statistics_user": {
+      "value": "yovsuperadmin"
+    },
+    "Output_Statistics_table": {
+      "value": "[Statistics]"
+    },
+    "Output_Statistics_password": {
+      "value": null
+    },
+    "Output_Statistics_maxWriterCount": {
+      "value": 1
+    },
+    "Output_Statistics_maxBatchCount": {
+      "value": 10000
+    },
+    "Output_Statistics_authenticationMode": {
+      "value": "ConnectionString"
+    }
+  }
+}

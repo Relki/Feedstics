@@ -1,0 +1,94 @@
+﻿WITH InputStream
+AS
+(
+    SELECT
+        FeedProviderName = stream.MessageType,
+        SampleDateTime = CAST(stream.data.created_At AS datetime),
+        stream.data,
+        Hashtags.ArrayValue
+    FROM
+        (
+            SELECT
+                SocialFeed.*,
+                SocialFeed.Data.entities.*
+            FROM SocialFeed
+        ) AS stream
+        CROSS APPLY GetArrayElements(hashtags) AS Hashtags
+    WHERE
+        stream.MessageType = 'Tweet'
+),
+InputStreamWithAnnotations
+AS
+(
+    SELECT
+        FeedProviderName = stream.MessageType,
+        SampleDateTime = CAST(stream.data.created_At AS datetime),
+        stream.data,
+        Annotations.ArrayValue
+    FROM
+        (
+            SELECT
+                SocialFeed.*,
+                SocialFeed.Data.entities.*
+            FROM SocialFeed
+        ) AS stream
+        CROSS APPLY GetArrayElements(annotations) AS Annotations
+    WHERE
+        stream.MessageType = 'Tweet'
+)
+
+SELECT
+    [InputStream].FeedProviderName,
+    StatisticName = 'TwitterFeedTotalTweets',
+    SampleDateTime = MAX(SampleDateTime),
+    Value = '{"Value": ' + CAST(COUNT(*) AS nvarchar(max)) + '}'
+INTO
+    [Statistics]
+FROM
+    [InputStream]
+WHERE
+    FeedProviderName = 'Tweet'
+GROUP BY [InputStream].FeedProviderName, TumblingWindow(second, 60)
+
+UNION
+
+-- Average Tweet length
+
+SELECT
+    [InputStream].FeedProviderName,
+    StatisticName = 'TwitterFeedAvgTweetLength',
+    SampleDateTime = MAX(SampleDateTime),
+    Value = '{"Value": ' + CAST(AVG(LEN(InputStream.data.text)) AS nvarchar(max)) + '}'
+FROM
+    [InputStream]
+WHERE
+    FeedProviderName = 'Tweet'
+GROUP BY [InputStream].FeedProviderName, TumblingWindow(second, 60)
+
+UNION
+
+-- Count of Tweet Hashtags
+
+SELECT
+    FeedProviderName = InputStream.FeedProviderName,
+    StatisticName = 'TwitterFeedHashtagCount',
+    SampleDateTime = MAX(InputStream.SampleDateTime),
+    Value = '{"Value": ' + CAST(COUNT(*) AS nvarchar(max)) + ', "Hashtag" : "' + InputStream.ArrayValue.tag + '" }'
+FROM
+    InputStream
+WHERE FeedProviderName = 'Tweet'
+GROUP BY InputStream.FeedProviderName, InputStream.ArrayValue.tag, TumblingWindow(minute, 5)
+
+UNION
+
+-- Count of Tweet Annotations
+
+SELECT
+    FeedProviderName = InputStreamWithAnnotations.FeedProviderName,
+    StatisticName = 'TwitterFeedAnnotationCount',
+    SampleDateTime = MAX(InputStreamWithAnnotations.SampleDateTime),
+        Value = '{"Value": ' + CAST(COUNT(*) AS nvarchar(max)) + ', "AnnotationType" : "' + InputStreamWithAnnotations.ArrayValue.type + '" '  + ', "AnnotationText" : "' + InputStreamWithAnnotations.ArrayValue.normalized_text + '" }'
+FROM
+    InputStreamWithAnnotations
+WHERE FeedProviderName = 'Tweet'
+GROUP BY InputStreamWithAnnotations.FeedProviderName, InputStreamWithAnnotations.ArrayValue.type, InputStreamWithAnnotations.ArrayValue.normalized_text, TumblingWindow(minute, 5)

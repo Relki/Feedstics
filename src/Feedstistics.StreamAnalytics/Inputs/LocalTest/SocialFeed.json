@@ -1,0 +1,1947 @@
+[
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309342937284608",
+      "text": "Donald J.Trump - ♦️\nHow Rockefeller banned the use of Ethanol in favour of Gasoline〽️\n🔳 The Dark Cult https://t.co/UJp7Ul3qFh",
+      "created_at": "2022-12-15T08:41:50Z",
+      "author_id": "1583747584828624896",
+      "edit_history_tweet_ids": [
+        "1603309342937284608"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603309342937284608",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1583747584828624896",
+          "name": "Dean",
+          "username": "sonofmason"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597008674727559169"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:41:56.3700000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309318576738306",
+      "text": "@MarioNawfal Me too https://t.co/BagTJEWjYv",
+      "created_at": "2022-12-15T08:41:44Z",
+      "author_id": "35187538",
+      "edit_history_tweet_ids": [
+        "1603309318576738306"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603307372629196800",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "35187538",
+          "name": "Caroline 🐱",
+          "username": "Listenbourg_Cat"
+        },
+        {
+          "id": "1319287761048723458",
+          "name": "Mario Nawfal",
+          "username": "MarioNawfal"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:41:50.1820000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309288855810048",
+      "text": "@hebixuanxiao @tim_sith @shpgm777 @KIYOayl \n文匯報再寫傷亡人數 https://t.co/3AkK9G5YD6",
+      "created_at": "2022-12-15T08:41:37Z",
+      "author_id": "1602312878114996224",
+      "edit_history_tweet_ids": [
+        "1603309288855810048"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1602333804487507968",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1602312878114996224",
+          "name": "CatShui",
+          "username": "shui_cat"
+        },
+        {
+          "id": "1384552190723825667",
+          "name": "何必喧嚣",
+          "username": "hebixuanxiao"
+        },
+        {
+          "id": "1031635994460663812",
+          "name": "Tim Sith",
+          "username": "tim_sith"
+        },
+        {
+          "id": "1552033945193168903",
+          "name": "公评⁷",
+          "username": "shpgm777"
+        },
+        {
+          "id": "1426583904543141888",
+          "name": "🇺🇦🇹🇼蛋卷🇺🇸🇯🇵🇪🇺🇬🇧🇨🇦",
+          "username": "KIYOayl"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:41:43.2250000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309267058147330",
+      "text": "No. 117453 🐱 🐈 \n \n #Cat #CatPicture https://t.co/8EN0p5D97b",
+      "created_at": "2022-12-15T08:41:31Z",
+      "author_id": "1418538306611126272",
+      "edit_history_tweet_ids": [
+        "1603309267058147330"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603309267058147330",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1418538306611126272",
+          "name": "Tillys (mostly) cat bot 🐱🐈",
+          "username": "tillycatbot"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:41:38.2240000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309259294244864",
+      "text": "@Nynbug Just want an emote of a Black Cat and/or a White Cat https://t.co/AJbSOi1zad",
+      "created_at": "2022-12-15T08:41:30Z",
+      "author_id": "1312172189395845120",
+      "edit_history_tweet_ids": [
+        "1603309259294244864"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1602059671103209473",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1312172189395845120",
+          "name": "ARC",
+          "username": "ARC22669984"
+        },
+        {
+          "id": "1360845554318782464",
+          "name": "Nynbug 💜▪️RAFFLE PINNED 📌 ✨🎄",
+          "username": "Nynbug"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:41:36.2240000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309245927018497",
+      "text": "@charmdiddy @ACTBrigitte Racist lgbtq DEMOCRATS https://t.co/SQXIUeOedB",
+      "created_at": "2022-12-15T08:41:26Z",
+      "author_id": "1589724691307982848",
+      "edit_history_tweet_ids": [
+        "1603309245927018497"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603121986045100032",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1589724691307982848",
+          "name": "Anthony",
+          "username": "AnthonyCalifson"
+        },
+        {
+          "id": "1296631188698923009",
+          "name": "Chelsea, duh.",
+          "username": "charmdiddy"
+        },
+        {
+          "id": "722528529716383744",
+          "name": "Brigitte Gabriel",
+          "username": "ACTBrigitte"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597008674727559169"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:41:33.1930000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309228369887232",
+      "text": "@ShootaCat Low inteligence specimen https://t.co/hnaa9D5kGc",
+      "created_at": "2022-12-15T08:41:22Z",
+      "author_id": "1508168051316998147",
+      "edit_history_tweet_ids": [
+        "1603309228369887232"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1602821629524205569",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1508168051316998147",
+          "name": "Funky Koteł",
+          "username": "SprytnyK"
+        },
+        {
+          "id": "441529957",
+          "name": "Shoota",
+          "username": "ShootaCat"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:41:28.4430000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309213295333376",
+      "text": "Vintage Millefiori Glass Cat Figurine Paperweight|Art Glass Paperweight Blue &amp; Orange Cat Kitty Abstract Design 2\"H\n #CatFigurinePaperweightart #VintageMillefiori #Kitty #cat #Orange #Paperweight #gift #Abstract #MeowSlumberVintage #EtsyEmail\n\n👉https://t.co/T0hcUtvvng https://t.co/hbdEXQPtIH",
+      "created_at": "2022-12-15T08:41:19Z",
+      "author_id": "1286552388",
+      "edit_history_tweet_ids": [
+        "1603309213295333376"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603309213295333376",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1286552388",
+          "name": "Nova",
+          "username": "yassine_akermi"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:41:25.2090000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309191535689728",
+      "text": "I’m packing and my cat proceeds to get herself comfortable (also yes thats cardboard on my bed, she loves sleeping on it) https://t.co/DC8Np4VkGB",
+      "created_at": "2022-12-15T08:41:13Z",
+      "author_id": "1521558808505774080",
+      "edit_history_tweet_ids": [
+        "1603309191535689728"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603309191535689728",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1521558808505774080",
+          "name": "Navs 🌊 pngtuber (● ˃̶͈̀ロ˂̶͈́)੭ꠥ⁾⁾",
+          "username": "NavsVT"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:41:20.1770000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309178927259648",
+      "text": "@OccupyDemocrats So https://t.co/V9plAt3lvg the boycot huh?  You dont believe what you post.  Youre just another crap Rat. https://t.co/CVDl6fBTdm",
+      "created_at": "2022-12-15T08:41:10Z",
+      "author_id": "1537668804129370113",
+      "edit_history_tweet_ids": [
+        "1603309178927259648"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603114040653275136",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1537668804129370113",
+          "name": "smokeydouble",
+          "username": "smokeydouble2"
+        },
+        {
+          "id": "878284831",
+          "name": "Occupy Democrats",
+          "username": "OccupyDemocrats"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597008674727559169"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:41:17.2510000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309144781783040",
+      "text": "Career Launcher, Pune is conducting the CAT 2023 Scholarship exam to help you unlock your potential for the upcoming CAT exam! Register now &amp; get assured 10% fee discount &amp; 100% scholarship!\n\n🌏 https://t.co/YOAlhCQyXq\n📲FC Road: 8484820200/Kharadi: 8149450005\n- Posted by Ryzely https://t.co/Xkw0sR03ut",
+      "created_at": "2022-12-15T08:41:02Z",
+      "author_id": "1535161389790007296",
+      "edit_history_tweet_ids": [
+        "1603309144781783040"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603309144781783040",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1535161389790007296",
+          "name": "Career Launcher Pune",
+          "username": "PuneCareer"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:41:09.2660000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309136066023424",
+      "text": "リヴリーに課金するのやめようと思う度にすごい可愛いの来るんだから… https://t.co/bnaCp1p11P",
+      "created_at": "2022-12-15T08:41:00Z",
+      "author_id": "1094089585426980864",
+      "edit_history_tweet_ids": [
+        "1603309136066023424"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603309136066023424",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1094089585426980864",
+          "name": "月影ネロ🐾☪22時～ポケモンsv",
+          "username": "Nero_cat_Vtuber"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:41:06.2350000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309115593342979",
+      "text": "@nytimes Great satire late night comedians and worth watching you made me and cat laugh for hours with that woke gibberish https://t.co/xo3pkCfbzZ",
+      "created_at": "2022-12-15T08:40:55Z",
+      "author_id": "1455855132080541705",
+      "edit_history_tweet_ids": [
+        "1603309115593342979"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603306124115120128",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1455855132080541705",
+          "name": "Goatfoot123",
+          "username": "Goatfoot123"
+        },
+        {
+          "id": "807095",
+          "name": "The New York Times",
+          "username": "nytimes"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:41:02.2980000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309113496113153",
+      "text": "@FnfZero @Mysty_guy_xd @stonesteves “🤓” https://t.co/IluYbU8ZIq",
+      "created_at": "2022-12-15T08:40:55Z",
+      "author_id": "1455171990797447168",
+      "edit_history_tweet_ids": [
+        "1603309113496113153"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1599299442271584256",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1455171990797447168",
+          "name": "Cat Juicer",
+          "username": "cat_juicer"
+        },
+        {
+          "id": "1458044565257064456",
+          "name": "Catz",
+          "username": "FnfZero"
+        },
+        {
+          "id": "1521732249540038657",
+          "name": "Mysty Arts (Comissions Open)",
+          "username": "Mysty_guy_xd"
+        },
+        {
+          "id": "1296531374279729153",
+          "name": "Stonesteve",
+          "username": "stonesteves"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:41:01.2340000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309100485337088",
+      "text": "A flash from the past.  Not sure if Trump will get the nod in 2024 but I am still hoping it happens. https://t.co/lP8vb6wFjn",
+      "created_at": "2022-12-15T08:40:52Z",
+      "author_id": "615687834",
+      "edit_history_tweet_ids": [
+        "1603309100485337088"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603309100485337088",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "615687834",
+          "name": "Herbert Mann",
+          "username": "Herbert_Mann_1"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597008674727559169"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:58.3550000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309093900652545",
+      "text": "@TristanSnell Typical leftist….due process is only for their gang members https://t.co/OYi3ZIliki",
+      "created_at": "2022-12-15T08:40:50Z",
+      "author_id": "1599154805888401409",
+      "edit_history_tweet_ids": [
+        "1603309093900652545"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603228313643884545",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1599154805888401409",
+          "name": "DaveDeuteronomy",
+          "username": "DaveDeuteronomy"
+        },
+        {
+          "id": "15801906",
+          "name": "Tristan Snell",
+          "username": "TristanSnell"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597008674727559169"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:56.2460000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309071536357377",
+      "text": "@joncoopertweets @joncoopertweets How about getting rid of Pride month. https://t.co/DB5cDUcsFW",
+      "created_at": "2022-12-15T08:40:45Z",
+      "author_id": "1587500409672941569",
+      "edit_history_tweet_ids": [
+        "1603309071536357377"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603118970516668423",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1587500409672941569",
+          "name": "Rio Bravo",
+          "username": "RioBrav14671085"
+        },
+        {
+          "id": "27493883",
+          "name": "Jon Cooper",
+          "username": "joncoopertweets"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597008674727559169"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:51.4180000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309068088528896",
+      "text": "@she_was_cat こんにちは ㅡ aku open request layout japancore &amp; semi moodboard dark, harga 4.000 (ava png). sebelumnya bisa baca tnc di link profileku ya dan formnya ada di pinned 🎀\n\nnote : not available for in rush! https://t.co/m4zoe3dx8E",
+      "created_at": "2022-12-15T08:40:44Z",
+      "author_id": "1459930885101289474",
+      "edit_history_tweet_ids": [
+        "1603309068088528896"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603289115067572224",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1459930885101289474",
+          "name": "valentina: open!",
+          "username": "luipzy"
+        },
+        {
+          "id": "788224861562769412",
+          "name": "ؘ",
+          "username": "she_was_cat"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:50.1990000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309059259498497",
+      "text": "@FanSince09 https://t.co/3wVBcV4SDE",
+      "created_at": "2022-12-15T08:40:42Z",
+      "author_id": "53550233",
+      "edit_history_tweet_ids": [
+        "1603309059259498497"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603307738301272064",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "53550233",
+          "name": "TRILL CLINTON",
+          "username": "derekgotloud"
+        },
+        {
+          "id": "231504942",
+          "name": "Allen Ivermectin",
+          "username": "FanSince09"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597008674727559169"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:48.2460000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309056042717184",
+      "text": "@Rvlt_030 @AlphaAcademyNFT https://t.co/CllmfepxTN",
+      "created_at": "2022-12-15T08:40:41Z",
+      "author_id": "1431622674598531081",
+      "edit_history_tweet_ids": [
+        "1603309056042717184"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1602951390980366336",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1431622674598531081",
+          "name": "Pepe The Great",
+          "username": "Between2Cryptos"
+        },
+        {
+          "id": "4558491689",
+          "name": "RVLT",
+          "username": "Rvlt_030"
+        },
+        {
+          "id": "1452432982036267011",
+          "name": "Alpha Elementary",
+          "username": "AlphaAcademyNFT"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:47.2140000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309045082832896",
+      "text": "@ShtngLogStalker @seattlejohn @joncoopertweets https://t.co/pIAFglUtn9",
+      "created_at": "2022-12-15T08:40:39Z",
+      "author_id": "37264855",
+      "edit_history_tweet_ids": [
+        "1603309045082832896"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603068019164549125",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "37264855",
+          "name": "Janet DiPetrillo ☮️",
+          "username": "jandip"
+        },
+        {
+          "id": "1586040836189523968",
+          "name": "Michael Hanna",
+          "username": "ShtngLogStalker"
+        },
+        {
+          "id": "18230741",
+          "name": "seattlejohn",
+          "username": "seattlejohn"
+        },
+        {
+          "id": "27493883",
+          "name": "Jon Cooper",
+          "username": "joncoopertweets"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597008674727559169"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:45.2460000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309040469446658",
+      "text": "@DeiDeivir @Mixeta_Mex_Cat @Sr_Bigotis @jmmorejudo Sempre igual, coi de pallassos https://t.co/qFn1m5IQCW",
+      "created_at": "2022-12-15T08:40:37Z",
+      "author_id": "271612947",
+      "edit_history_tweet_ids": [
+        "1603309040469446658"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1602389775989735445",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "271612947",
+          "name": "Marcel Martínez Mañé",
+          "username": "Marcel_Martinz"
+        },
+        {
+          "id": "1478437309",
+          "name": "Dei Deivir 🇪🇸",
+          "username": "DeiDeivir"
+        },
+        {
+          "id": "1556904891263717378",
+          "name": "@Mixeta",
+          "username": "Mixeta_Mex_Cat"
+        },
+        {
+          "id": "1088151182009384962",
+          "name": "F**** Carxofes",
+          "username": "Sr_Bigotis"
+        },
+        {
+          "id": "1241861459702886405",
+          "name": "More",
+          "username": "jmmorejudo"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:44.1980000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309038032281601",
+      "text": "@TheLeoTerrell There’s nothing he can say that’s bad news, his influence is almost gone https://t.co/mWRd0jL4jl",
+      "created_at": "2022-12-15T08:40:37Z",
+      "author_id": "542262045",
+      "edit_history_tweet_ids": [
+        "1603309038032281601"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603159676744409088",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "542262045",
+          "name": "Charles Malone",
+          "username": "chucklest"
+        },
+        {
+          "id": "1212806053907185664",
+          "name": "TheLeoTerrell",
+          "username": "TheLeoTerrell"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597008674727559169"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:43.2920000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603309028305666049",
+      "text": "@addict_car My brain just got stuck on \"Orla Cat\" which I knew wasn't right... #derrygirls https://t.co/rn1t4dL6Cc",
+      "created_at": "2022-12-15T08:40:35Z",
+      "author_id": "1393851791511638021",
+      "edit_history_tweet_ids": [
+        "1603309028305666049"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603306367162273793",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1393851791511638021",
+          "name": "Cortezvangerwen",
+          "username": "cortezvangerwen"
+        },
+        {
+          "id": "1179468450068123649",
+          "name": "Car Brochure Addict",
+          "username": "addict_car"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:41.2600000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308982185201665",
+      "text": "@StopCorrupcio @itziarGonzlezVi @ceopinio @jordimunozm @UABBarcelona 🗣️Lourdes Parramon, cap de Relacions Institucionals d'#Antifrau, presenta al webinari les dades més destacables del #Baròmetre22.\n🧐Ja pots consultar totes les dades sobre percepcions i actituds ciutadanes a l'informe de resultats⬇️\nhttps://t.co/mwlv8ZxAKC https://t.co/ctwVkUfpPm",
+      "created_at": "2022-12-15T08:40:24Z",
+      "author_id": "933648732788285440",
+      "edit_history_tweet_ids": [
+        "1603308982185201665"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603306978243235842",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "933648732788285440",
+          "name": "Antifrau de Catalunya",
+          "username": "antifraucat"
+        },
+        {
+          "id": "700393625272893442",
+          "name": "Observatori Ciutadà Contra la Corrupció (O3C)",
+          "username": "StopCorrupcio"
+        },
+        {
+          "id": "833874151",
+          "name": "Itziar GonzálezVirós",
+          "username": "itziarGonzlezVi"
+        },
+        {
+          "id": "1483726684943794179",
+          "name": "CEO. Centre d'Estudis d'Opinió",
+          "username": "ceopinio"
+        },
+        {
+          "id": "260451268",
+          "name": "Jordi Muñoz",
+          "username": "jordimunozm"
+        },
+        {
+          "id": "304338078",
+          "name": "Universitat Autònoma de Barcelona",
+          "username": "UABBarcelona"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:30.2290000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308970482933762",
+      "text": "Vintage Murano Style Turquoise blue and Amber Glass Sitting Cat\n #cats #gift #amber #cat #style #vintage #Kitty #Vintage #Murano #Turquoise #MeowSlumberVintage #EtsyEmail\n\n👉https://t.co/1GrP2menXN https://t.co/M6I5IdM3CG",
+      "created_at": "2022-12-15T08:40:21Z",
+      "author_id": "3778386016",
+      "edit_history_tweet_ids": [
+        "1603308970482933762"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603308970482933762",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "3778386016",
+          "name": "Violet",
+          "username": "Fleeting_light"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:27.4320000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308962488598528",
+      "text": "Hey journalists -\nPlease give us lots of coverage and analysis of the huge post-vax Covid death toll in Florida. From January 2021 on, Florida's Covid death rate has been among America's highest, largely due to DeSantis. https://t.co/v0OUK2HIGD https://t.co/PxHO7gdfQp",
+      "created_at": "2022-12-15T08:40:19Z",
+      "author_id": "174144887",
+      "edit_history_tweet_ids": [
+        "1603308962488598528"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603308962488598528",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "174144887",
+          "name": "Rick G. Rosner",
+          "username": "dumbassgenius"
+        },
+        {
+          "id": "1298372735383605249",
+          "name": "Ron Filipkowski 🇺🇦",
+          "username": "RonFilipkowski"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597008674727559169"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:25.3350000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308946747432961",
+      "text": "La Diputació de Tarragona convoca borsa de treball de tècnic/a especialista, adscrita a la Unitat d’Assistència en Medi Ambient, Salut Pública, Enginyeria Municipal. https://t.co/y24FkkavGt https://t.co/CjvDrLF2z3",
+      "created_at": "2022-12-15T08:40:15Z",
+      "author_id": "1199362695524421632",
+      "edit_history_tweet_ids": [
+        "1603308946747432961"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603308946747432961",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1199362695524421632",
+          "name": "ForumFormat",
+          "username": "ForumFormat"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:21.1880000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308937784479745",
+      "text": "It was exactly this picture https://t.co/D4hsahkEyM",
+      "created_at": "2022-12-15T08:40:13Z",
+      "author_id": "1531754866263064584",
+      "edit_history_tweet_ids": [
+        "1603308937784479745"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603308593834508295",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1531754866263064584",
+          "name": "Aspen☭🏳️‍🌈",
+          "username": "aspenindenial"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:19.2360000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308932398735361",
+      "text": "👇 Listen &amp; Watch 🦎🦎 https://t.co/79qotMOrfA https://t.co/soGuOPBUXz",
+      "created_at": "2022-12-15T08:40:12Z",
+      "author_id": "1522654660024283138",
+      "edit_history_tweet_ids": [
+        "1603308932398735361"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603308932398735361",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1522654660024283138",
+          "name": "DC Coordinator of the Entire Shit Show 🎬🎥",
+          "username": "DC30871833"
+        },
+        {
+          "id": "948183563396005888",
+          "name": "Deke Savage",
+          "username": "big_simp"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597008674727559169"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:18.2040000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308931429941250",
+      "text": "@nonbinarybooty https://t.co/N3BPnXzSeZ",
+      "created_at": "2022-12-15T08:40:11Z",
+      "author_id": "1014838040777412608",
+      "edit_history_tweet_ids": [
+        "1603308931429941250"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603277312195059714",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1014838040777412608",
+          "name": "contactlenz 🤎",
+          "username": "fakoiepafhss"
+        },
+        {
+          "id": "1379899322259677186",
+          "name": "mother earth🧃",
+          "username": "nonbinarybooty"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:18.1880000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308916078624768",
+      "text": "@Edtan07 @AviumWorld @AviumOrigins https://t.co/Rp4E0ArfTm",
+      "created_at": "2022-12-15T08:40:08Z",
+      "author_id": "1495032141272403971",
+      "edit_history_tweet_ids": [
+        "1603308916078624768"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603022732543025152",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1495032141272403971",
+          "name": "SirJianz",
+          "username": "BenJWhy"
+        },
+        {
+          "id": "3172381838",
+          "name": "fishyfushy.eth",
+          "username": "Edtan07"
+        },
+        {
+          "id": "1503264200298180610",
+          "name": "Avium",
+          "username": "AviumWorld"
+        },
+        {
+          "id": "1559136664294813696",
+          "name": "Avium Origins",
+          "username": "AviumOrigins"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:14.2340000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308896461983744",
+      "text": "Coming up soon on https://t.co/rLwVsNuiWQ 🇰🇷🚙 —\n💿 Jeong Ai Ri · Open the Door (1979)\n💿 Trophy Cat · Cream Dream (ft. colortheben) (2020)\n💿 Butterfly Girls · Any Port (1983) https://t.co/nyjNvi3z56",
+      "created_at": "2022-12-15T08:40:03Z",
+      "author_id": "1342785433327964161",
+      "edit_history_tweet_ids": [
+        "1603308896461983744"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603308896461983744",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1342785433327964161",
+          "name": "City Pop One",
+          "username": "citypopone"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:09.2190000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308888408965120",
+      "text": "https://t.co/B2w6bVZqHh \n Global coverage is wide and handsome \n#法兰克福 约 炮 https://t.co/CVT8mfwwnP",
+      "created_at": "2022-12-15T08:40:01Z",
+      "author_id": "1587433106671534080",
+      "edit_history_tweet_ids": [
+        "1603308888408965120"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603308888408965120",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1587433106671534080",
+          "name": "爱尔兰约 炮|都柏林 约 炮+v: yp09900",
+          "username": "iodkk84"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:07.2340000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308885153980417",
+      "text": "@mattgaetz https://t.co/RfJsAdnGf2",
+      "created_at": "2022-12-15T08:40:00Z",
+      "author_id": "1326728764491919361",
+      "edit_history_tweet_ids": [
+        "1603308885153980417"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603152297172914177",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1326728764491919361",
+          "name": "Ethan Hunt 🇺🇸",
+          "username": "JustMy_Tenet"
+        },
+        {
+          "id": "58579942",
+          "name": "Matt Gaetz",
+          "username": "mattgaetz"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597008674727559169"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:07.1720000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308882410995712",
+      "text": "🤔Tens una filla o un fill entre els 6 i 12 anys ⁉️\n\n👑Vol formar part de la Cavalcada dels Reixos 2023? \n\n💥Sortegem 51 places per anar a les Carrosses \n\n✅Vols saber com participar? https://t.co/qGkWoLS7yz\n\n🗓Presentació de sol·licituds fins al 22/12\n\n#Reixos2023 #FestesNadal https://t.co/mbugVRoTxK",
+      "created_at": "2022-12-15T08:40:00Z",
+      "author_id": "132164404",
+      "edit_history_tweet_ids": [
+        "1603308882410995712"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603308882410995712",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "132164404",
+          "name": "Ajuntament de Lleida",
+          "username": "paerialleida"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:06.3120000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308882448654336",
+      "text": "#taldiacomavui de 1833 neix a Cervià de Ter, Llorenç Pagans i Julià. Músic que tiomfà als teatres de París i fou amic personal de Edgar Degas, qui el retratà. Està enterrrat a París al cementiri de Batingolles 📌https://t.co/HnWJ9pvCxL https://t.co/kVNAF4NqCE",
+      "created_at": "2022-12-15T08:40:00Z",
+      "author_id": "2296633356",
+      "edit_history_tweet_ids": [
+        "1603308882448654336"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603308882448654336",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "2296633356",
+          "name": "Petjada Catalana",
+          "username": "PetjadaCat"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:40:06.1870000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308847321391104",
+      "text": "@hebixuanxiao @tim_sith @shpgm777 @KIYOayl\n 不管真假, 發生 64\n文匯報詳盡報導 https://t.co/P88s6gHi1w",
+      "created_at": "2022-12-15T08:39:51Z",
+      "author_id": "1602312878114996224",
+      "edit_history_tweet_ids": [
+        "1603308847321391104"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1602333804487507968",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1602312878114996224",
+          "name": "CatShui",
+          "username": "shui_cat"
+        },
+        {
+          "id": "1384552190723825667",
+          "name": "何必喧嚣",
+          "username": "hebixuanxiao"
+        },
+        {
+          "id": "1031635994460663812",
+          "name": "Tim Sith",
+          "username": "tim_sith"
+        },
+        {
+          "id": "1552033945193168903",
+          "name": "公评⁷",
+          "username": "shpgm777"
+        },
+        {
+          "id": "1426583904543141888",
+          "name": "🇺🇦🇹🇼蛋卷🇺🇸🇯🇵🇪🇺🇬🇧🇨🇦",
+          "username": "KIYOayl"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:39:58.2030000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308822952439808",
+      "text": "@nonbinarybooty tiny cats https://t.co/ZVS7jmcUXT",
+      "created_at": "2022-12-15T08:39:46Z",
+      "author_id": "1088275011171844097",
+      "edit_history_tweet_ids": [
+        "1603308822952439808"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603277312195059714",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1088275011171844097",
+          "name": "bagel_and_ink_sandwich",
+          "username": "BagelInk"
+        },
+        {
+          "id": "1379899322259677186",
+          "name": "mother earth🧃",
+          "username": "nonbinarybooty"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:39:52.2500000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308816460021766",
+      "text": "MARATÓ DE TV3 | Vine a bategar amb nosaltres.\n\nAmb motiu de la Marató de TV3 d'aquest any 2022 l'Ajuntament del Montmell es vol afegir a recaptar diners per a la causa, aquest any adreçada a la salut cardiovascular. Més info: https://t.co/bK8oKUiYzq https://t.co/IeQSkSau2k",
+      "created_at": "2022-12-15T08:39:44Z",
+      "author_id": "1141630336046178304",
+      "edit_history_tweet_ids": [
+        "1603308816460021766"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603308816460021766",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1141630336046178304",
+          "name": "Ajuntament del Montmell",
+          "username": "ElMontmell"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:39:50.2500000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308808927055872",
+      "text": "仕方ないので自分で捌いたんだけど 俺上手くね？ってなった 死にたてだったから 身が外れやすかったのかなぁ 頭は味噌汁にしたよ！貧乏性なのでつい具を色々入れてしまう ご飯警察CATがすごい顔してチェックしてた… https://t.co/NEieMLEMhU",
+      "created_at": "2022-12-15T08:39:42Z",
+      "author_id": "75299755",
+      "edit_history_tweet_ids": [
+        "1603308808927055872"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603308808927055872",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "75299755",
+          "name": "ここ　どぅりこ",
+          "username": "cocodolyco"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:39:49.2030000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308808138158080",
+      "text": "マイプレ、ユアプレが\nCat's Meow Books\nから届きました🎁\n本もですが、ブックカバーもついてたねこアースというチラシも、包装も猫が付いてて可愛いฅ^•ω•^ฅ\n\nお二人のサイン本、めちゃくちゃ嬉しい⸜(*ˊᗜˋ*)⸝\nゆっくりじっくり読みます！！\n #マイプレ  #ユアプレ  #サイン本 https://t.co/LM9aEzPatl",
+      "created_at": "2022-12-15T08:39:42Z",
+      "author_id": "2712136459",
+      "edit_history_tweet_ids": [
+        "1603308808138158080"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603308808138158080",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "2712136459",
+          "name": "本の虫とも 📖読書アカ",
+          "username": "BooK84lovers"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:39:48.2340000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308791826731010",
+      "text": "@RussInCheshire It’s the only thing I enjoy I’d cancel everything else if I could. I get up early &amp; sit in the semi dark with a cup of tea &amp; just the tree lights on. https://t.co/RKEvUmqYGG",
+      "created_at": "2022-12-15T08:39:38Z",
+      "author_id": "1235493254",
+      "edit_history_tweet_ids": [
+        "1603308791826731010"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603306726039908354",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1235493254",
+          "name": "Karen McDermott",
+          "username": "2kay2kay"
+        },
+        {
+          "id": "498753368",
+          "name": "Russ Jones",
+          "username": "RussInCheshire"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:39:44.2020000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308763142062081",
+      "text": "Working the breading station [by dirtydave13]\n  \n #cat #lovely https://t.co/ozzj88DKUG",
+      "created_at": "2022-12-15T08:39:31Z",
+      "author_id": "1249136239850242048",
+      "edit_history_tweet_ids": [
+        "1603308763142062081"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603308763142062081",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1249136239850242048",
+          "name": "Adorable cats",
+          "username": "MonitorsAndMore"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:39:38.2170000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308766333612034",
+      "text": "cat kitchen invest summer literature discovery initiative *、/ （查户口本所在地.查户口人员）可点我主页.就找我解决！Mary Sands pla https://t.co/jluloQtSg7",
+      "created_at": "2022-12-15T08:39:32Z",
+      "author_id": "1357705969678102529",
+      "edit_history_tweet_ids": [
+        "1603308766333612034"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603308766333612034",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1357705969678102529",
+          "name": "专业黑客盗QQ号破解微信查资料聊天记录修改成绩QQ微信密码找回盗微信",
+          "username": "DiptiRa56458453"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:39:38.1860000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308720360148992",
+      "text": "@she_was_cat @busifess Bo kajuha ke bawah https://t.co/JkTxbyL0OE",
+      "created_at": "2022-12-15T08:39:21Z",
+      "author_id": "611409105",
+      "edit_history_tweet_ids": [
+        "1603308720360148992"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603287514101399553",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "611409105",
+          "name": "Cecill",
+          "username": "ciwway"
+        },
+        {
+          "id": "788224861562769412",
+          "name": "ؘ",
+          "username": "she_was_cat"
+        },
+        {
+          "id": "1335180684759994370",
+          "name": "ADA RULES BARU DI CARRD.",
+          "username": "busifess"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:39:27.2640000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308692031561728",
+      "text": "Lookout Duty on the Frontlines. Many hands make light work for the Armed Forces of Ukraine [by Smokey_Katt]\n  \n #goodCat #cat https://t.co/8hnlmaF9PJ",
+      "created_at": "2022-12-15T08:39:14Z",
+      "author_id": "1249136239850242048",
+      "edit_history_tweet_ids": [
+        "1603308692031561728"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603308692031561728",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1249136239850242048",
+          "name": "Adorable cats",
+          "username": "MonitorsAndMore"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:39:21.3410000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308680664862720",
+      "text": "Degen Fat Cat #10014 has been purchased on Magic Eden! 👀 \n\nThis excellent piece sold for 38.0 SOL ($536.94 USD) \n\n#solananft\n\nGet realtime analytics at https://t.co/WAYRbpMx2E https://t.co/UVFhtFKZGE",
+      "created_at": "2022-12-15T08:39:12Z",
+      "author_id": "1444537045523697666",
+      "edit_history_tweet_ids": [
+        "1603308680664862720"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603308680664862720",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1444537045523697666",
+          "name": "S◎L B◎T",
+          "username": "NFTSaleBot"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597853491942543360"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:39:18.1840000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308667452915712",
+      "text": "Trump promised his \"Truth Social\" (a forked Mastodon instance, btw) would \"stand up to the tyranny of big tech\"\n\nIn reality, it routinely censors progressive politics -- such as pro-choice posts https://t.co/U0VcTCXHJ1",
+      "created_at": "2022-12-15T08:39:09Z",
+      "author_id": "995006376962396160",
+      "edit_history_tweet_ids": [
+        "1603308667452915712"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603307948390125568",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "995006376962396160",
+          "name": "SDL",
+          "username": "SocDoneLeft"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597008674727559169"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 1,
+    "EventEnqueuedUtcTime": "2022-12-15T08:39:15.2350000Z"
+  },
+  {
+    "MessageType": "Tweet",
+    "data": {
+      "id": "1603308665565593601",
+      "text": "Microsoft will roll out its \"EU data boundary\", allowing EU cloud customers to process and store data in the region, starting with customer data, from January 1 (Reuters)\n#blowge #daily #news #blog #news #fox #trump #breaking #breakingnews #tech #video #bitcoin #bbc #today https://t.co/sbfSieuO14",
+      "created_at": "2022-12-15T08:39:08Z",
+      "author_id": "1440288842339086342",
+      "edit_history_tweet_ids": [
+        "1603308665565593601"
+      ],
+      "edit_controls": null,
+      "conversation_id": "1603308665565593601",
+      "username": null
+    },
+    "includes": {
+      "users": [
+        {
+          "id": "1440288842339086342",
+          "name": "Blowge(Blog)",
+          "username": "blowgeblog"
+        }
+      ]
+    },
+    "matching_rules": [
+      {
+        "value": null,
+        "tag": "Non-retweeted trump Tweets",
+        "id": "1597008674727559169"
+      }
+    ],
+    "EventProcessedUtcTime": "2022-12-15T09:04:04.7879939Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2022-12-15T08:39:15.1370000Z"
+  }
+]
