@@ -9,7 +9,7 @@
     public class TwitterFeedTotalTweets : StatisticBase<int>
     {
         /// <summary>
-        /// Insansiates an instance of <see cref="TwitterFeedTotalTweets"/>.
+        /// Instantiates an instance of <see cref="TwitterFeedTotalTweets"/>.
         /// </summary>
         public TwitterFeedTotalTweets()
             : base()
@@ -17,7 +17,7 @@
         }
 
         /// <summary>
-        /// Insansiates an instance of <see cref="TwitterFeedTotalTweets"/> with an Statistic entity.
+        /// Instantiates an instance of <see cref="TwitterFeedTotalTweets"/> with an Statistic entity.
         /// </summary>
         public TwitterFeedTotalTweets(EF.Models.Entity.Statistics statistic)
             : base(statistic)
@@ -25,7 +25,7 @@
         }
 
         /// <summary>
-        /// Insansiates an instance of <see cref="TwitterFeedTotalTweets"/> with a serialized dimension.
+        /// Instantiates an instance of <see cref="TwitterFeedTotalTweets"/> with a serialized dimension.
         /// </summary>
         public TwitterFeedTotalTweets(string serializedValueDimensions, DateTime sampleDateTimeUtc)
             : base(nameof(TwitterFeedTotalTweets), serializedValueDimensions, sampleDateTimeUtc)

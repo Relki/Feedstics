@@ -10,6 +10,9 @@
     /// </summary>
     public sealed class FeedstisticsService : IFeedstisticsService
     {
+        /// <summary>
+        /// Instantiates an instance of <see cref="FeedstisticsService"/>.
+        /// </summary>
         public FeedstisticsService(
             IFeedstisticsDataProvider feedDataProvider,
             ILoggerFactory loggerFactory)

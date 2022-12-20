@@ -6,7 +6,7 @@
     public class TwitterFeedHashtagTop10Count : TwitterFeedHashtagCount
     {
         /// <summary>
-        /// Insansiates an instance of <see cref="TwitterFeedHashtagTop10Count"/>.
+        /// Instantiates an instance of <see cref="TwitterFeedHashtagTop10Count"/>.
         /// </summary>
         public TwitterFeedHashtagTop10Count()
             : base()
@@ -15,7 +15,7 @@
         }
 
         /// <summary>
-        /// Insansiates an instance of <see cref="TwitterFeedHashtagTop10Count"/> with an existing statistic base fields.
+        /// Instantiates an instance of <see cref="TwitterFeedHashtagTop10Count"/> with an existing statistic base fields.
         /// </summary>
         public TwitterFeedHashtagTop10Count(IStatistic statistic)
             : base(statistic)
