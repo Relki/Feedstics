@@ -1,0 +1,52 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>dbf4379c-92b1-41bf-b9b7-c8ea86b18aae</ProjectGuid>
+    <OutputType>File</OutputType>
+    <AssemblyName>Feedstics.StreamAnalytics</AssemblyName>
+    <StartFile>Script.asaql</StartFile>
+    <ASATargetsFilePath>$(AppData)\Microsoft\DataLake\MsBuild\1.0\StreamAnalytics.targets</ASATargetsFilePath>
+    <Name>FeedstisticsTwitterStreamAnalytics</Name>
+    <RootNamespace>Feedstics.StreamAnalytics</RootNamespace>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Script Include="Script.asaql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Configure Include="Inputs\local_SocialFeed.json">
+      <SubType>InputMock</SubType>
+    </Configure>
+    <Configure Include="Inputs\SocialFeed.json">
+      <SubType>Input</SubType>
+    </Configure>
+    <Configure Include="Outputs\FeedStatisticsOutput.json">
+      <SubType>Output</SubType>
+    </Configure>
+    <Configure Include="JobConfig.json">
+      <SubType>JobConfig</SubType>
+    </Configure>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Inputs" />
+    <Folder Include="Functions" />
+    <Folder Include="Outputs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Feedstistics.Shared\Feedstistics.Shared.csproj">
+      <Name>Feedstistics.Shared</Name>
+      <Project>{00d4b3f2-b0c6-433f-93ff-8ac20e262f7a}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(ASATargetsFilePath)" />
+</Project>

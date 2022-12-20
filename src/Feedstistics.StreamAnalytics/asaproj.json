@@ -1,0 +1,22 @@
+{
+    "name": "FeedstisticsTwitterStreamAnalytics",
+    "startFile": "Script.asaql",
+    "configurations": [
+        {
+            "filePath": "Inputs\\local_SocialFeed.json",
+            "subType": "InputMock"
+        },
+        {
+            "filePath": "Inputs\\SocialFeed.json",
+            "subType": "Input"
+        },
+        {
+            "filePath": "Outputs\\FeedStatisticsOutput.json",
+            "subType": "Output"
+        },
+        {
+            "filePath": "JobConfig.json",
+            "subType": "JobConfig"
+        }
+    ]
+}

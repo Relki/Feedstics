@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Feedstistics.Api": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7135"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 34970,
+      "useSSL": false
+    }
+  }
+}

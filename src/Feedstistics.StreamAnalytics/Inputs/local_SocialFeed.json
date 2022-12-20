@@ -1,0 +1,8 @@
+﻿{
+  "InputAlias": null,
+  "Type": "Data Stream",
+  "Format": null,
+  "FilePath": "LocalTest/SocialFeed.json",
+  "Sample": "{\r\n  \"MessageType\": \"Tweet\",\r\n  \"data\": {\r\n    \"id\": \"1603309342937284608\",\r\n    \"text\": \"Donald J.Trump - ♦️\\nHow Rockefeller banned the use of Ethanol in favour of Gasoline〽️\\n🔳 The Dark Cult https://t.co/UJp7Ul3qFh\",\r\n    \"created_at\": \"2022-12-15T08:41:50Z\",\r\n    \"author_id\": \"1583747584828624896\",\r\n    \"edit_history_tweet_ids\": [\r\n      \"1603309342937284608\"\r\n    ],\r\n    \"edit_controls\": null,\r\n    \"conversation_id\": \"1603309342937284608\",\r\n    \"username\": null\r\n  },\r\n  \"includes\": {\r\n    \"users\": [\r\n      {\r\n        \"id\": \"1583747584828624896\",\r\n        \"name\": \"Dean\",\r\n        \"username\": \"sonofmason\"\r\n      }\r\n    ]\r\n  },\r\n  \"matching_rules\": [\r\n    {\r\n      \"value\": null,\r\n      \"tag\": \"Non-retweeted trump Tweets\",\r\n      \"id\": \"1597008674727559169\"\r\n    }\r\n  ],\r\n  \"EventProcessedUtcTime\": \"2022-12-15T09:04:04.7879939Z\",\r\n  \"PartitionId\": 0,\r\n  \"EventEnqueuedUtcTime\": \"2022-12-15T08:41:56.3700000Z\"\r\n}",
+  "ScriptType": "InputMock"
+}

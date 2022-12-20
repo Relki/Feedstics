@@ -1,0 +1,26 @@
+﻿{
+  "ScriptType": "JobConfig",
+  "DataLocale": "en-US",
+  "OutputErrorPolicy": "Drop",
+  "EventsLateArrivalMaxDelayInSeconds": 5,
+  "EventsOutOfOrderMaxDelayInSeconds": 0,
+  "EventsOutOfOrderPolicy": "Adjust",
+  "StreamingUnits": 3,
+  "CompatibilityLevel": "1.2",
+  "UseSystemAssignedIdentity": false,
+  "GlobalStorage": {
+    "AccountName": "http://127.0.0.1:10000",
+    "AccountKey": null,
+    "AuthenticationMode": "ConnectionString"
+  },
+  "CustomCodeStorage": {
+    "AccountName": null,
+    "AccountKey": null,
+    "ContainerName": null,
+    "Path": "UserCustomCode.zip"
+  },
+  "ContentStoragePolicy": "SystemAccount",
+  "UploadFromLocal": true,
+  "DataSourceCredentialDomain": "6fc3516f-673c-4b76-be5a-08ad66b40766.StreamAnalystics",
+  "Tags": {}
+}

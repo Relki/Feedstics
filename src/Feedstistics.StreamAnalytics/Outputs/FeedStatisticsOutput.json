@@ -1,0 +1,16 @@
+{
+    "Name": "Statistics",
+    "DataSourceType": "SQL Database",
+    "SQLDatabaseProperties": {
+        "Database": "yov-i-cus-account-sdb",
+        "Server": "yov-i-cus-services-sql.database.windows.net",
+        "User": "*********",
+        "Password": "*********",
+        "Table": "[Statistics]",
+        "MaxWriterCount": 1,
+        "MaxBatchCount": 10000,
+        "AuthenticationMode": "ConnectionString"
+    },
+    "DataSourceCredentialDomain": "0117dd08-ef76-4d96-bd42-4cb94b464986.StreamAnalystics",
+    "ScriptType": "Output"
+}
