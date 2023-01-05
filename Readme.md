@@ -29,7 +29,7 @@ database source. This is nothing fancy but a single table that is not normalized
 
 One hurdle to a local developer is that ASA projects / jobs don't currently allow targeting local SQL Instances, unless you're dev machine has a officially
 recognized SSL certificate mapped to your IP/DNS of your machine. The ASA job requires that the SQL Target support an encrypted connection AND it's SSL cert
-is issued from an official authority. Local dev boxes wouldn't this wouldn't be feasible. So for reproing this, I did set up a cloud Azure SQL Server instance
+is issued from an official authority. Local dev boxes, this wouldn't be feasible. So for reproing this, I did set up a cloud Azure SQL Server instance
 since it works for ASA jobs.
 
 With our stream calculations being sent to Azure SQL Server, next would be to implement something to read the resutls from there and give it to a caller.
