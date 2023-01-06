@@ -69,7 +69,7 @@ To set up a repro of your own solution, you'll need the following;
 
 Locate file appsettings.Developer.json under Feed.Runner folder
 - Update line 12 and 13 with Twitter API secrets.
-- Add any rules if any desired for streaming. Default is cats :). Line 19
+- Add any rules if any desired for streaming. Default is cats :). Line 19. Note, you're twitter api key sku limits how many rules you can have at a time and how many concurrent streams you can have a time (If you run Feed Runner with multiple instances, but have different rules for each for example).
 - Update line 28 and 29 with the connection string from your event hub created in Azure and your hub name.
 - Default Provider and Exporter is set as Twitter and AzureEventHub so no need to change anything there.
 - You can play around with batching settings, line 14 and 15
