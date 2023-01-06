@@ -1,4 +1,11 @@
+This solution consists of the following major components;
+- Feed Runner Console App that can be run in a container. This is the code responsible for reading social media stream data from providers and forwarding it to export providers.
+- Azure Stream Analytics job. Peforms our analytics on incoming social media streams of data grouped by social media providers.
+- Azure SQL Database. Stores pre-calculated social media metrics.
+- Azure Function Http RESTful API tat can run in a container. This has endpoints available to retreive pre-calculated social media metrics from our sql server database.
+
 In this solution, we start off with a .Net Core 7 console app that can be run in a docker container.
+
 This "Feed Runner" console app supports multiple Feed Providers and Multiple Feed Exporters using a feed provider factory and a feed exporter factory. Factory limits providers to enabled providers. It can
 be adapted to support other social media platforms and multiple feed export targets. Currently, I have
 implemented a Twitter Feed Provider and a Azure Event Hub and Azure Storage Queue Feed Export providers.
@@ -23,7 +30,7 @@ included, we can however, open that individual project in Visual Studio Code. It
 have recently been updated. So open the main solution in VS 2022, and open the Azure Streaming Analytics project in VSCode. You can then run the job
 locally picking a Cloud Source and a Cloud Target to do live processing.
 
-So, the Streaming Analytics job takes 1 input stream from Azure Event Hub (our cloud job is set to only allow one stream processor at time at the price point I chose),
+The Streaming Analytics job takes 1 input stream from Azure Event Hub (our cloud job is set to only allow one stream processor at time at the price point I chose),
  but runs 4 different job processing queries on that same stream source. We output all the processing stream results from this and dump it into a SQL 
 database source. This is nothing fancy but a single table that is not normalized.
 
@@ -60,7 +67,7 @@ To set up a repro of your own solution, you'll need the following;
 - Azure Event Hub with a topic created (Azure currently does not have any local developer emulation options)
 - Azure SQL Server created (Running ASA jobs locally are unable to output to a local instance of SQL Server unless your machine has a registered SSL cert from an certificate authority tied to your machine's dns. It's easier to create a free azure sql sku for testing).
 
-: Locate file appsettings.Developer.json under Feed.Runner folder
+Locate file appsettings.Developer.json under Feed.Runner folder
 - Update line 12 and 13 with Twitter API secrets.
 - Add any rules if any desired for streaming. Default is cats :). Line 19
 - Update line 28 and 29 with the connection string from your event hub created in Azure and your hub name.
@@ -69,16 +76,16 @@ To set up a repro of your own solution, you'll need the following;
 - You can play around with export settings on individual sending of feed items or sending as they are batched, line 42
 - There is Azure Storage Queue Client settings defined in Line 44 but only left there as an example and not used.
 
-: Locate local.settings.json under Feedstistics.Api folder
+Locate local.settings.json under Feedstistics.Api folder
 - Update line 8 with your Azure SQL Server connection string. You can get this from the azure portal but you'll have to update the connection string with your password
 
-: Locate the SocialFeed.json file under FeedstisticsTwitterStreamAnalytics folder using Visual Studio Code (Stream Input)
+Locate the SocialFeed.json file under FeedstisticsTwitterStreamAnalytics folder using Visual Studio Code (Stream Input)
 - You'll need to configure this to your event hub, updating Servie Bus Namespace, Hub Name, Hub Policy Name and Hub Policy Key
 
-: Locate the FeedStatisticsOutput.json file under FeedstisticsTwitterStreamAnalytics folder using Visual Studio Code (Stream Output)
-:::: Update the fields in there with your Server Name, Database name, Username, Password and Table Name. The Table name should be the Entity Framework project table name that was deployed.
+Locate the FeedStatisticsOutput.json file under FeedstisticsTwitterStreamAnalytics folder using Visual Studio Code (Stream Output)
+-  Update the fields in there with your Server Name, Database name, Username, Password and Table Name. The Table name should be the Entity Framework project table name that was deployed.
 
-: Locate the Readme.md file under Feedstistics.Temporal.EF folder
+Locate the Readme.md file under Feedstistics.Temporal.EF folder
 - Instructions in this file tell how to build the entity framework project, add new migrations, and build an Entity Framework Bundle (efbundle.exe) and how to use that file to deploy a database.
 
 ================ Running
@@ -96,8 +103,7 @@ is a Swagger endpoint to kick off funtions. Copy that route and put it in your b
 
 I've only lightly set up CI/CD for this solution as this really depends on the target infra structure used for CI/CD. I personally would use Azure DevOps.
 I did have the Azure Function REST Api and the Feed Runner Console app create Docker Files with the their build solutions so this should make it pretty
-easy to get it ready for deployment and build pipelines. Same with the efBundle.exe for the database deployment. The ASA project does produce an ARM
-template for deploying with Azure when you build the script in Visual Studio Code so that's handy.
+easy to get it ready for deployment to container registeries from build pipelines. Same with the efBundle.exe for the database deployment. The ASA project does produce an IaaS ARM template for deploying with Azure when you build the script in Visual Studio Code so that's handy for the release pipeline.
 
 ================ Testing
 Test project and framework is intially checked in but I'll inlcude the test case in a separate project checking. Many of the scenarious that test integration
