@@ -1,5 +1,5 @@
 In this solution, we start off with a .Net Core 7 console app that can be run in a docker container.
-This "Feed Runner" console app supports multiple Feed Providers and Multiple Feed Exporters. It can
+This "Feed Runner" console app supports multiple Feed Providers and Multiple Feed Exporters using a feed provider factory and a feed exporter factory. Factory limits providers to enabled providers. It can
 be adapted to support other social media platforms and multiple feed export targets. Currently, I have
 implemented a Twitter Feed Provider and a Azure Event Hub and Azure Storage Queue Feed Export providers.
 
@@ -54,32 +54,32 @@ as needed.
 =============== Setup
 To set up a repro of your own solution, you'll need the following;
 
-Twitter API developer account with a ConsumerKey and a ConsumerSecret
-Visual Studio 2022 (Visual Entity Framework Designer extension)
-Visual Studio Code (ASA Extension needed, but should auto detect it's needed and prompt you)
-Azure Event Hub with a topic created
-Azure SQL Server created
+- Twitter API developer account with a ConsumerKey and a ConsumerSecret
+- Visual Studio 2022 (with Visual Entity Framework Designer extension. Not a requirement but adding new tables code first is nice to have a visual relationship designer that generates all your extensible EF classes consistently)
+- Visual Studio Code (ASA Extension needed, but should auto detect it's needed and prompt you)
+- Azure Event Hub with a topic created (Azure currently does not have any local developer emulation options)
+- Azure SQL Server created (Running ASA jobs locally are unable to output to a local instance of SQL Server unless your machine has a registered SSL cert from an certificate authority tied to your machine's dns. It's easier to create a free azure sql sku for testing).
 
 : Locate file appsettings.Developer.json under Feed.Runner folder
-:::: Update line 12 and 13 with Twitter API secrets.
-:::: Add any rules if any desired for streaming. Default is cats :). Line 19
-:::: Update line 28 and 29 with the connection string from your event hub created in Azure and your hub name.
-:::: Default Provider and Exporter is set as Twitter and AzureEventHub so no need to change anything there.
-:::: You can play around with batching settings, line 14 and 15
-:::: You can play around with export settings on individual sending of feed items or sending as they are batched, line 42
-:::: There is Azure Storage Queue Client settings defined in Line 44 but only left there as an example and not used.
+- Update line 12 and 13 with Twitter API secrets.
+- Add any rules if any desired for streaming. Default is cats :). Line 19
+- Update line 28 and 29 with the connection string from your event hub created in Azure and your hub name.
+- Default Provider and Exporter is set as Twitter and AzureEventHub so no need to change anything there.
+- You can play around with batching settings, line 14 and 15
+- You can play around with export settings on individual sending of feed items or sending as they are batched, line 42
+- There is Azure Storage Queue Client settings defined in Line 44 but only left there as an example and not used.
 
 : Locate local.settings.json under Feedstistics.Api folder
-:::: Update line 8 with your Azure SQL Server connection string. You can get this from the azure portal but you'll have to update the connection string with your password
+- Update line 8 with your Azure SQL Server connection string. You can get this from the azure portal but you'll have to update the connection string with your password
 
 : Locate the SocialFeed.json file under FeedstisticsTwitterStreamAnalytics folder using Visual Studio Code (Stream Input)
-:::: You'll need to configure this to your event hub, updating Servie Bus Namespace, Hub Name, Hub Policy Name and Hub Policy Key
+- You'll need to configure this to your event hub, updating Servie Bus Namespace, Hub Name, Hub Policy Name and Hub Policy Key
 
 : Locate the FeedStatisticsOutput.json file under FeedstisticsTwitterStreamAnalytics folder using Visual Studio Code (Stream Output)
 :::: Update the fields in there with your Server Name, Database name, Username, Password and Table Name. The Table name should be the Entity Framework project table name that was deployed.
 
 : Locate the Readme.md file under Feedstistics.Temporal.EF folder
-:::: Instructions in this file tell how to build the entity framework project, add new migrations, and build an Entity Framework Bundle (efbundle.exe) and how to use that file to deploy a database.
+- Instructions in this file tell how to build the entity framework project, add new migrations, and build an Entity Framework Bundle (efbundle.exe) and how to use that file to deploy a database.
 
 ================ Running
 
