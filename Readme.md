@@ -1,8 +1,8 @@
 This solution consists of the following major components;
-- Feed Runner Console App that can be run in a container. This is the code responsible for reading social media stream data from providers and forwarding it to export providers.
+- Feed Runner Console App that can be run in a docker container. This is the code responsible for reading social media stream data from providers and forwarding it to export providers.
 - Azure Stream Analytics job (ASA). Peforms our analytics on incoming social media streams of data grouped by social media providers.
 - Azure SQL Database. Stores pre-calculated social media metrics.
-- Azure Function Http RESTful API tat can run in a container. This has endpoints available to retreive pre-calculated social media metrics from our sql server database.
+- Azure Function Http RESTful API tat can run in a docker container. This has endpoints available to retreive pre-calculated social media metrics from our sql server database.
 
 In this solution, we start off with a .Net Core 7 console app that can be run in a docker container.
 
